@@ -1,12 +1,12 @@
 {
-  "name": "learn-travis-YOURNAME",
+  "name": "FistApp",
   "description": "Simple Travis-CI check for JSHint (Code Linting)",
-  "author": "your name here :-)",
+  "author": "Huzum Catalin",
   "version": "0.0.1",
   "devDependencies": {
     "jshint": "^2.9.4"
   },
   "scripts": {
-    "test": "/tests/jshint hello.js"
+    "test": "tests/jshint hello.js"
   }
 }
