@@ -1,6 +1,6 @@
 <dom-module id="demo-app">
           <template>
-              <h1>[[message]]</h1>
+              <h1>[[message]] this day of [[alertUpdateTime]]</h1>
           </template>
           <script>
           Polymer({
@@ -15,7 +15,8 @@
                       type:Date,
                       value:function(){
                           return new Date();
-                      }
+                      },
+                      reflectToAttribute:true
                   }
               },
               logger: function(){
