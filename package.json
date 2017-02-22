@@ -7,6 +7,6 @@
     "jshint": "^2.9.4"
   },
   "scripts": {
-    "test": "./node_modules/jshint/bin/jshint hello.js"
+    "test": "./tests/jshint hello.js"
   }
 }
