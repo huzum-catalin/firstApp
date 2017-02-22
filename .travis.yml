@@ -1,8 +1,3 @@
 language: node_js
-deploy:
-  provider: releases
-  api_key: "3deae62e-fe8c-4a43-a9d3-43756d7e2a18"
-  file: "index.html"
-  skip_cleanup: true
-  on:
-    tags: true
+node_js:
+  - 0.12
