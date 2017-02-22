@@ -2,4 +2,4 @@ language: node_js
 deploy:
   provider: heroku
   api_key:
-    secure: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC33WvsoSlqMAHRigQkWHGQkR5dSPBi0HbAekGj5wOQVM8Xq5SrcKpwmJF7Y7P6oxkQ/eLdI4O/sPy2mc33fU5GJe9kga8qPR5FEiXyXR+GZBIaZmSvMRzzy+cplt32WDrC7yXtzKFHL0Bkmug8x9R5aaNg/SKElBSTCH38i6NiTHosgLDKyYpdYQoo+TCZE1QH8TQ7IDXk4ZGmp6bPSE5ySKJipHWGZPeE3dPxHBH/ZhXJwzIl+yrk5pqwjRBFmE31TfqK013BR7Hp4qGLJZ3RPB0bUaL8moE1X6lTKzHzeA6qW850G8BnUweCUM+7RX7IJShdlkLl/OixKyy6daS1 huzum.catalin@DEVS1"
+    secure: "3deae62e-fe8c-4a43-a9d3-43756d7e2a18"
