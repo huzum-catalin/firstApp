@@ -1,0 +1,27 @@
+<dom-module id="demo-app">
+          <template>
+              <h1>[[message]]</h1>
+          </template>
+          <script>
+          Polymer({
+              is: "demo-app",
+              properties:{
+                  message:{
+                      type: String,
+                      value: 'Hello there',
+                      reflectToAttribute:true
+                  },
+                  alertUpdateTime :{
+                      type:Date,
+                      value:function(){
+                          return new Date();
+                      }
+                  }
+              },
+              logger: function(){
+                  console.log("I am Polymer");
+              }
+              
+          });
+          </script>
+      </dom-module>
