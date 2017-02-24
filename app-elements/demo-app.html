@@ -3,12 +3,13 @@
               <h1>[[message]] this day of [[alertUpdateTime]]</h1>
           </template>
           <script>
+             
           Polymer({
               is: "demo-app",
               properties:{
                   message:{
                       type: String,
-                      value: 'Hello there',
+                      value: 'Hello there you scrubs',
                       reflectToAttribute:true
                   },
                   alertUpdateTime :{
@@ -19,6 +20,9 @@
                       reflectToAttribute:true
                   }
               },
+              ready: function() {
+                    console.log('checking status !');
+                },
               logger: function(){
                   console.log("I am Polymer");
               }
