@@ -1,8 +1,8 @@
 {
   "name": "firstapp",
   "version": "1.0.0",
-  "description": "Test app for heroku",
-  "main": "index.html",
+  "description": "Test",
+  "main": "index.js",
   "directories": {
     "test": "tests"
   },
@@ -11,14 +11,14 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\""
+    "test": "jshint"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/huzum-catalin/firstApp.git"
   },
   "author": "Huzum Catalin",
-  "license": "ISC",
+  "license": "(MIT)",
   "bugs": {
     "url": "https://github.com/huzum-catalin/firstApp/issues"
   },
