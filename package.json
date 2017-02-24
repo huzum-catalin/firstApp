@@ -1,12 +1,26 @@
 {
-  "name": "FistApp",
-  "description": "Simple Travis-CI check for JSHint (Code Linting)",
-  "author": "Huzum Catalin",
-  "version": "0.0.1",
-  "devDependencies": {
+  "name": "firstapp",
+  "version": "1.0.0",
+  "description": "Test app for heroku",
+  "main": "index.html",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
     "jshint": "^2.9.4"
   },
+  "devDependencies": {},
   "scripts": {
-    "test": "tests/jshint hello.js"
-  }
+    "test": "echo \"Error: no test specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huzum-catalin/firstApp.git"
+  },
+  "author": "Huzum Catalin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huzum-catalin/firstApp/issues"
+  },
+  "homepage": "https://github.com/huzum-catalin/firstApp#readme"
 }
